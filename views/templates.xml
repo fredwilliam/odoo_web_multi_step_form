@@ -1,0 +1,8 @@
+<odoo>
+    <template id="my_custom_assets_application_stepper" name="My Custom Assets Stepper">
+        <link rel="stylesheet" type="text/css"
+              href="/mult_step_form/static/src/css/stepper.css"/>
+        <script type="text/JavaScript"
+                src="/mult_step_form/static/src/js/stepper.js"/>
+    </template>
+</odoo>
