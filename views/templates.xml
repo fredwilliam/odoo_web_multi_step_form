@@ -1,8 +1,10 @@
 <odoo>
-    <template id="my_custom_assets_application_stepper" name="My Custom Assets Stepper">
-        <link rel="stylesheet" type="text/css"
-              href="/mult_step_form/static/src/css/stepper.css"/>
-        <script type="text/JavaScript"
-                src="/mult_step_form/static/src/js/stepper.js"/>
-    </template>
+    <template id="assets_frontend" inherit_id="website.assets_frontend" name="My Custom Assets Stepper">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/css"
+                  href="/odoo_web_multi_step_form/static/src/css/stepper.css"/>
+            <script type="text/JavaScript"
+                    src="/odoo_web_multi_step_form/static/src/js/stepper.js"/>
+        </xpath>
+        </template>
 </odoo>

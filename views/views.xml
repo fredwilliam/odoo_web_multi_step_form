@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <template id="research_application_id">
-        <head>
-            <t t-call-assets="research.my_custom_assets_application_stepper" t-js="false"/>
-            <t t-call-assets="research.my_custom_assets_application_stepper" t-css="false"/>
-        </head>
+<!--        <head>-->
+<!--            <t t-call-assets="odoo_web_multi_step_form.my_custom_assets_application_stepper" t-js="false"/>-->
+<!--            <t t-call-assets="odoo_web_multi_step_form.my_custom_assets_application_stepper" t-css="false"/>-->
+<!--        </head>-->
         <t t-call="website.layout">
             <div class="oe_structure">
                 <section class="pt32 pb32 bg-secondary oe_custom_bg">
